@@ -12,5 +12,4 @@ parser.add_argument('--pretrain_model', type=str, default='/Share/home/Z21301095
 parser.add_argument('--testmodel', type=str, default='model/IKONOS_CFB=4_save358999--lr=1e-05.pth')
 parser.add_argument('--testtype', type=str, default='NO-REFERENCE METRICS1')
 
-parser.add_argument('--cuda', action='store_true', help='use cuda?')
 opt = parser.parse_args()
